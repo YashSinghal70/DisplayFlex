@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: center;
+    justify-content:left ;
+    justify-content: right;
+    justify-content: baseline;
+}
+.logo
+{
+    color: white;
+    padding-top: 10px;;
+}
+ul{
+    display: flex;
+   
+    gap: 10px;
+}
+li
+{
+    list-style: none;
+    padding-top: 10px;
+   
+}
+ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.logo img{
+    border-radius: 50%;
+}
+.main{
+margin-top: 100px;
+display: flex;
+flex-direction: column;
+flex-direction: column-reverse;
+flex-direction: row;
+flex-direction:row-reverse ;
+flex-wrap: wrap;
+margin: auto;
+}
+.main img
+{
+    border-radius: 20px;
+}
+.text
+{
+    width: 700px;
+}
+.img
+{
+    margin-top: 100px
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo"><img src="7.jpg" alt="" height="50px" width="50px" ></div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Services</a></li>
+        </ul>
+    </nav>
+    <div class="main">
+        <img src="indian-businessman-with-his-white-car.jpg" alt=""b height="300px" width="250px">
+        <div class="text">
+            <h2>Heading</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet deserunt alias sequi in reiciendis excepturi tenetur distinctio, non ex eos quam inventore atque maxime mollitia aut! Molestias molestiae mollitia ea?</p> 
+        <div class="img">
+        <img src="Logo Mockup on panel wall.jpg" alt="" height="300px" width="700px">
+        <img src="rear-view-programmer-working-all-night-long.jpg" alt="" height="300px" width="700px">
+        <img src="7.jpg" alt="" height="300px" width="700px">
+    </div>
+    </div>
+    </div>
+</body>
+</html>

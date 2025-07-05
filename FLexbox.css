@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+}
+#container
+{
+    height: 500px;
+    width:1200px;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    /* flex-wrap: wrap; */
+    /* align-items: flex-start */
+    gap: 10px;
+}
+div
+{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display:inline-block ;
+
+}
+#box1
+{
+    background-color: aqua;
+}
+#box2
+{
+    background-color: pink;
+}
+#box3
+{
+    background-color: rgb(239, 26, 239);
+    align-self: flex-end;
+}
+#box4
+{
+    background-color:rgb(232, 169, 54);
+}
+#box5
+{
+    background-color: rgba(255, 255, 6, 0.693);
+    /* flex-shrink: 2; */
+}
+#box6
+{
+    background-color: rgb(255, 132, 0);
+    /* flex-shrink: 1; */
+}
+#box7
+{
+    background-color: rgb(70, 0, 89);
+}
+#box8
+{
+    background-color: rgb(26, 33, 239);
+    flex-grow: 1;
+}
+#box9
+{
+    background-color:rgb(54, 232, 90);
+}
+#box10
+{
+    background-color: rgba(6, 255, 209, 0.693);
+}
+
